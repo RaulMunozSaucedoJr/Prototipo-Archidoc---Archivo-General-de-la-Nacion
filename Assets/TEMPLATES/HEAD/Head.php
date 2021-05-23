@@ -26,7 +26,6 @@
         crossorigin="anonymous" />
     <!-- RECURSOS LOCALES Y ONLINE DE ICONOS -->
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/Assets/ICONS/boxicons-2.0.7/css/boxicons.min.css">
     <!-- HOJA DE ESTILOS PERSONAL -->
     <link rel="stylesheet" href="/Assets/SCSS/Archidoc.css">
     <!-- ICONO TAB NAVEGADOR -->
