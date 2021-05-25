@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include'./Assets/TEMPLATES/HEAD/Head.php' ?>
+<?php include_once'./Assets/TEMPLATES/HEAD/Head.php' ?>
 
 <body class="d-flex flex-column min-vh-100">
 
@@ -12,11 +12,11 @@
         <div class="row">
 
             <!--//*NAVBAR VERSIÓN ESCRITORIO -->
-            <?php include'./Assets/TEMPLATES/NAVBAR__ESCRITORIO/Navbar__Escritorio.php'?>
+            <?php include_once'./Assets/TEMPLATES/NAVBAR__ESCRITORIO/Navbar__Escritorio.php'?>
             <!--//*---------------------------->
 
             <!--//*NAVBAR VERSIÓN MOVIL -->
-            <?php include'./Assets/TEMPLATES/NAVBAR__MOVIL/Navbar__Movil.php' ?>
+            <?php include_once'./Assets/TEMPLATES/NAVBAR__MOVIL/Navbar__Movil.php' ?>
             <!--//*----------------------->
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-2 mb-5 mt-2 pb-5">
@@ -47,18 +47,20 @@
             </div>
 
             <!--//*BOTÓN VOLVER ARRIBA -->
-            <?php include'./Assets/TEMPLATES/REGRESAR__ARRIBA/Regresar__Arriba.php' ?>
+            <?php include_once'./Assets/TEMPLATES/REGRESAR__ARRIBA/Regresar__Arriba.php' ?>
             <!--//*----------------------->
 
         </div>
     </div>
 
     <!--//*FOOTER-->
-    <?php include'./Assets/TEMPLATES/FOOTER/Footer.php' ?>
+    <?php include_once'./Assets/TEMPLATES/FOOTER/Footer.php' ?>
     <!--//*-------->
 
     <!-- VALIDACIONES DE LOS DISTINTOS FORMULARIOS -->
     <script src="./VIEW/JS/Validaciones.js" type="module"></script>
+
+    <script src="./VIEW/JS/Tabs.js" type="module"></script>
 
     <script>
     // Loaded via <script> tag, create shortcut to access PDF.js exports.
@@ -114,8 +116,6 @@
         }
     });
     </script>
-
-
 
     <script>
     document.addEventListener("visibilitychange", () => {

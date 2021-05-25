@@ -13,7 +13,7 @@
                 <a class="nav-link" href="/Registrar-Archivos-Usuarios.php">Registrar Usuarios-Archivos</a>
             </li>
             <li class="navbar__nav-item nav-item ml-3">
-                <a class="nav-link" href="/Mostrar-Archivos-Usuarios.php">Buscar Usuarios-Archivos</a>
+                <a class="nav-link" href="/VIEW/Mostrar-Archivos-Usuarios.php">Buscar Usuarios-Archivos</a>
             </li>
             <li class="navbar__nav-item nav-item ml-3">
                 <a class="nav-link" href="#Contacto">Cerrar Sesión</a>

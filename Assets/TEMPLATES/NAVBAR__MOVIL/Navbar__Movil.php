@@ -15,7 +15,7 @@
     </div>
     <!--//*Icono para mostrar los registros de usuarios y archivos-->
     <div class="mb-nav-item">
-        <a href="/Mostrar-Archivos-Usuarios.php">
+        <a href="/VIEW/Mostrar-Archivos-Usuarios.php">
             <i class='bx bx-table'></i>
             </i>
         </a>

@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include'../Assets/TEMPLATES/HEAD/Head.php' ?>
+<?php include_once'../Assets/TEMPLATES/HEAD/Head.php' ?>
 
 <body class="d-flex flex-column min-vh-100">
 
@@ -12,11 +12,11 @@
         <div class="row">
 
             <!--//*NAVBAR VERSIÓN ESCRITORIO -->
-            <?php include'../Assets/TEMPLATES/NAVBAR__ESCRITORIO/Navbar__Escritorio.php'?>
+            <?php include_once'../Assets/TEMPLATES/NAVBAR__ESCRITORIO/Navbar__Escritorio.php'?>
             <!--//*---------------------------->
 
             <!--//*NAVBAR VERSIÓN MOVIL -->
-            <?php include'../Assets/TEMPLATES/NAVBAR__MOVIL/Navbar__Movil.php' ?>
+            <?php include_once'../Assets/TEMPLATES/NAVBAR__MOVIL/Navbar__Movil.php' ?>
             <!--//*----------------------->
 
             <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 pt-5">
@@ -39,13 +39,13 @@
                     <div class="contentWrapper">
                         <!--//*Total de usuarios--------------------------->
                         <div class="contenido content" id="mostrar__usuarios">
-                            <?php include'../Assets/TEMPLATES/TABLA__USUARIOS/Usuarios__Registrados.php' ?>
+                            <?php include_once'../Assets/TEMPLATES/TABLA__USUARIOS/Usuarios__Registrados.php' ?>
                         </div>
                         <!--//*-------------------------------------------->
 
                         <!--//*Total de documentos e imagenes ------------------------->
                         <div class="contenido content" id="mostrar__documentos">
-                            <?php include'../Assets/TEMPLATES/NUEVAS__IMAGENES__DOCUMENTOS/Nuevos__Documentos.php' ?>
+                            <?php include_once'../Assets/TEMPLATES/TABLA__IMAGENES__DOCUMENTOS/Documentos__Imagenes__Registrados.php' ?>
                         </div>
                         <!--//*-------------------------------------------------------->
                     </div>
@@ -59,7 +59,7 @@
     <script src="../VIEW/JS/Tabs.js" type="module"></script>
 
     <!--//*FOOTER-->
-    <?php include'../Assets/TEMPLATES/FOOTER/Footer.php' ?>
+    <?php include_once'../Assets/TEMPLATES/FOOTER/Footer.php' ?>
     <!--//*-------->
 
     <script>

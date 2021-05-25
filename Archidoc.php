@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include'./Assets/TEMPLATES/HEAD/Head.php' ?>
+<?php include_once'./Assets/TEMPLATES/HEAD/Head.php' ?>
 
 <body class="d-flex flex-column min-vh-100">
 
@@ -8,15 +8,15 @@
         <div class="row">
 
             <!--//*NAVBAR VERSIÓN ESCRITORIO -->
-            <?php include'./Assets/TEMPLATES/NAVBAR__ESCRITORIO/Navbar__Escritorio.php'?>
+            <?php include_once'./Assets/TEMPLATES/NAVBAR__ESCRITORIO/Navbar__Escritorio.php'?>
             <!--//*---------------------------->
 
             <!--//*NAVBAR VERSIÓN MOVIL -->
-            <?php include'./Assets/TEMPLATES/NAVBAR__MOVIL/Navbar__Movil.php' ?>
+            <?php include_once'./Assets/TEMPLATES/NAVBAR__MOVIL/Navbar__Movil.php' ?>
             <!--//*----------------------->
 
             <div class="col-xs-12 col-4 pb-5">
-                <?php include'./Assets/TEMPLATES/NAVEGACION__LATERAL/Navegacion__Lateral.php' ?>
+                <?php include_once'./Assets/TEMPLATES/NAVEGACION__LATERAL/Navegacion__Lateral.php' ?>
             </div>
 
             <div class="col-xs-12 col-8 pb-5 mb-5">
@@ -47,7 +47,7 @@
     </div>
 
     <!--//*FOOTER-->
-    <?php include'./Assets/TEMPLATES/FOOTER/Footer.php' ?>
+    <?php include_once'./Assets/TEMPLATES/FOOTER/Footer.php' ?>
     <!--//*-------->
 
     <script>

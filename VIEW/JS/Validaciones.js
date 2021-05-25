@@ -1,5 +1,3 @@
-//!POR ALGUNA EXTRAÑA RAZÓN NO PUDE HACER LO MISMO CON LAS FUNCIONES.
-
 /**
  * @param {}
  */

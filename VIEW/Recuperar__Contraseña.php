@@ -2,20 +2,16 @@
 <html lang="en">
 
 <!--//* HEADER -->
-<?php include'../Assets/TEMPLATES/HEAD/Head.php' ?>
+<?php include_once'../Assets/TEMPLATES/HEAD/Head.php' ?>
 <!--//*---------->
 
 <body class="d-flex flex-column min-vh-100">
-
-    <!-- BARRA LATERAL REDES SOCIALES -->
-    <?php include'../Assets/TEMPLATES/REDES__SOCIALES/Redes-Sociales.php' ?>
-    <!---------------------------------->
 
     <div class="container">
         <div class="row">
 
             <div class="recuperarContraseña col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mt-3 pt-3 mb-1">
-                <?php include'../Assets/TEMPLATES/RECUPERAR__CONTRASEÑA/Formulario_Recuperar_Contraseña.php' ?>
+                <?php include_once'../Assets/TEMPLATES/RECUPERAR__CONTRASEÑA/Formulario_Recuperar_Contraseña.php' ?>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-3 mt-3 mb-1">
@@ -26,7 +22,7 @@
     </div>
 
     <!--//* FOOTER-->
-    <?php include'../Assets/TEMPLATES/RECURSOS__FOOTER/Recursos__Footer.php'?>
+    <?php include_once'../Assets/TEMPLATES/RECURSOS__FOOTER/Recursos__Footer.php'?>
     <!--//*-------->
 
     <script src="../VIEW/JS/Validaciones.js" type="module"></script>

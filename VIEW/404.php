@@ -2,13 +2,13 @@
 <html lang="en">
 
 <!--//* HEAD -->
-<?php include'../Assets/TEMPLATES/HEAD/Head.php' ?>
+<?php include_once'../Assets/TEMPLATES/HEAD/Head.php' ?>
 <!--//*---------->
 
 <body class="d-flex flex-column min-vh-100">
 
     <!-- BARRA LATERAL REDES SOCIALES -->
-    <?php include'../Assets/TEMPLATES/REDES__SOCIALES/Redes-Sociales.php' ?>
+    <?php include_once'../Assets/TEMPLATES/REDES__SOCIALES/Redes-Sociales.php' ?>
     <!---------------------------------->
 
     <div class="container pt-5">
@@ -37,7 +37,7 @@
 
 
     <!--//* FOOTER-->
-    <?php include'../Assets/TEMPLATES/FOOTER/Footer.php'?>
+    <?php include_once'../Assets/TEMPLATES/FOOTER/Footer.php'?>
     <!--//*-------->
 
     <script>
