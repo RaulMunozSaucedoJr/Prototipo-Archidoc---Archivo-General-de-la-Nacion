@@ -37,7 +37,7 @@
 
 
     <!--//* FOOTER-->
-    <?php include_once'../Assets/TEMPLATES/FOOTER/Footer.php'?>
+    <?php include_once'../Assets/TEMPLATES/RECURSOS__FOOTER/Recursos__Footer.php'?>
     <!--//*-------->
 
     <script>

@@ -1,5 +1,5 @@
 /**
- * @param {}
+ * @param {expresiones} (import & from)
  */
 import {
     usuarios,

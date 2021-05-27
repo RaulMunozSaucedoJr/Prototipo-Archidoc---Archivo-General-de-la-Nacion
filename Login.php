@@ -2,7 +2,7 @@
 <html lang="en">
 
 <!--//* HEAD -->
-<?php include_once'../Assets/TEMPLATES/HEAD/Head.php' ?>
+<?php include_once'./Assets/TEMPLATES/HEAD/Head.php' ?>
 <!--//*---------->
 
 <body class="d-flex flex-column min-vh-100">
@@ -12,7 +12,7 @@
             <div class="login col-xs-11 col-sm-11 col-md-6 col-lg-6 col-lg-6 col-xl-6 pt-5 mb-2">
                 <form method="post" action="#" class="needs-validation" id="login" novalidate>
                     <fieldset>
-                        <legend>Login</legend>
+                        <legend>LOGIN ARCHIDOC</legend>
                         <div class="form-group">
                             <label for="usuario__login" class="label__formulario">Usuario</label>
                             <input type="text" inputmode="text" class="form-control inputs" id="usuario__login"
@@ -68,17 +68,17 @@
                 </form>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 col-lg-6 col-xl-6 pt-3 mb-3" id="login__contenedor__imagen">
-                <img src="../Assets/SVG/Ilustracion__Login.svg" class="login__Ilustracion img-fluid"
+                <img src="./Assets/SVG/Ilustracion__Login.svg" class="login__Ilustracion img-fluid"
                     alt="Ilustración Login">
             </div>
         </div>
     </div>
 
     <!--//* FOOTER-->
-    <?php include_once'../Assets/TEMPLATES/RECURSOS__FOOTER/Recursos__Footer.php'?>
+    <?php include_once'./Assets/TEMPLATES/RECURSOS__FOOTER/Recursos__Footer.php'?>
     <!--//*-------->
 
-    <script src="../VIEW/JS/Validaciones.js" type="module"></script>
+    <script src="./VIEW/JS/Validaciones.js" type="module"></script>
 
     <script>
     const login = document.getElementById("login");

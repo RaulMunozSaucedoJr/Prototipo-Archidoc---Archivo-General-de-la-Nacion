@@ -1,4 +1,4 @@
-<div class="mb-nav fixed-bottom">
+<div class="mb-nav fixed-bottom mt-5">
     <div class="mb-move-item"></div>
     <!--//*Icono para inicio-->
     <div class="mb-nav-item">

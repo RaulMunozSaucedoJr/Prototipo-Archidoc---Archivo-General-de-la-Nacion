@@ -15,33 +15,8 @@
             <?php include_once'./Assets/TEMPLATES/NAVBAR__MOVIL/Navbar__Movil.php' ?>
             <!--//*----------------------->
 
-            <div class="col-xs-12 col-4 pb-5">
-                <?php include_once'./Assets/TEMPLATES/NAVEGACION__LATERAL/Navegacion__Lateral.php' ?>
-            </div>
+            
 
-            <div class="col-xs-12 col-8 pb-5 mb-5">
-                <div class="contenido__General">
-                    <h2>Auto Sidebar</h2>
-                    <p>This sidebar is as tall as its content (the links), and is always shown.</p>
-                    <p>Scroll down the page to see the result.</p>
-                    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-                        concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis
-                        evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
-                        molestiae voluptatibus.</p>
-                    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-                        concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis
-                        evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
-                        molestiae voluptatibus.</p>
-                    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-                        concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis
-                        evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
-                        molestiae voluptatibus.</p>
-                    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset
-                        concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis
-                        evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no
-                        molestiae voluptatibus.</p>
-                </div>
-            </div>
 
         </div>
     </div>

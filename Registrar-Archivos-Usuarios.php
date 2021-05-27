@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="contentWrapper">
-                        <div class="contenido content active" id="nuevos__usuarios">
+                        <div class="contenido content" id="nuevos__usuarios">
                             <?php include'./Assets/TEMPLATES/NUEVOS__USUARIOS/Nuevos__Usuarios.php' ?>
                         </div>
 
