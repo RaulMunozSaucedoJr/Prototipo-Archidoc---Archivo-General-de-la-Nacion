@@ -4,7 +4,8 @@ import {
     inputsRecuperarContraseña,
     inputsLogin,
     contraseña,
-    repetir__contraseña
+    repetir__contraseña,
+    boton__Volver__Arriba
 } from '../SELECTORES/Selectores.js'
 
 /**
@@ -117,4 +118,20 @@ export const reset = () => {
     usuarios.reset();
     archivos.reset();
     location.reload();
+};
+
+/**
+ * @param {constante} (boton__Volver__Arriba)
+ * @param {funcion} (volver__Arriba)
+ * @param {funcion} (scrollTo)
+ * @param {elemento} (top)
+ * @param {funcion} (showToTopButton)
+ * @param {element & etiqueta-html & Operador Lógico & Altura-Pixel´s & Operador Ternario & constante & propiedad & metodo & clase-css}
+ */
+
+export const volver__Arriba = () => {
+    scrollTo(top);
+};
+export const showToTopButton = () => {
+    document.body.scrollTop > 200 || document.documentElement.scrollTop > 200 ? boton__Volver__Arriba.classList.remove('boton__volver__arriba__oculto') : boton__Volver__Arriba.classList.add('boton__volver__arriba__oculto');
 };
