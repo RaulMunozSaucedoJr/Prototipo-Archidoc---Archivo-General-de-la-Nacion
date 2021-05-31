@@ -55,9 +55,6 @@
         </div>
     </div>
 
-    <!-- TAB´S -->
-    <script src="../VIEW/JS/Tabs.js" type="module"></script>
-
     <!--//*FOOTER-->
     <?php include_once'../Assets/TEMPLATES/FOOTER/Footer.php' ?>
     <!--//*-------->

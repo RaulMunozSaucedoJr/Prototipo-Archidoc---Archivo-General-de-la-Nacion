@@ -59,7 +59,7 @@
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pt-2 mb-1">
                             <div class="form-group recuperar__contrasena">
-                                <a class="recuperar__contrasena__link__externo" href="./Recuperar__Contraseña.php">
+                                <a class="recuperar__contrasena__link__externo" href="/VIEW/Recuperar__Contraseña.php">
                                     Click aquí para recuperar tus credenciales.
                                 </a>
                             </div>

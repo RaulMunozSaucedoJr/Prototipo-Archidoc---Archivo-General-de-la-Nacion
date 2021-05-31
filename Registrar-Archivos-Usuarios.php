@@ -60,8 +60,6 @@
     <!-- VALIDACIONES DE LOS DISTINTOS FORMULARIOS -->
     <script src="./VIEW/JS/Validaciones.js" type="module"></script>
 
-    <script src="./VIEW/JS/Tabs.js" type="module"></script>
-
     <script>
     // Loaded via <script> tag, create shortcut to access PDF.js exports.
     var pdfjsLib = window['pdfjs-dist/build/pdf'];

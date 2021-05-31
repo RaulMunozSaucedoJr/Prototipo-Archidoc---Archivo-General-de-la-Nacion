@@ -2,7 +2,7 @@ import {
     tabs,
     tabButton,
     contents
-} from '../JS/SELECTORES/Selectores.js'
+} from '/VIEW/JS/SELECTORES/Selectores.js'
 
 ! function () {
     "use strict";

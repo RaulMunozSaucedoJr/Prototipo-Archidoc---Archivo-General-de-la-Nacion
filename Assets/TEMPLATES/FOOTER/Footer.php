@@ -49,3 +49,4 @@
 <script src="/VIEW/JS/ConfiguracionDataTables.js"></script>
 <!-- ARCHIDOC JS -->
 <script src="/Assets/JS/Archidoc.js"></script>
+<script src="/VIEW/JS/Tabs.js" type="module"></script>
